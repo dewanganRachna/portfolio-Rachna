@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,11 +15,17 @@
     href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Fjalla+One&display=swap"
     rel="stylesheet">
   <!-- <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> -->
-  <!-- animated link by searching animated css in google -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
+  
+  <!-- aos animation -->
+  <link rel="stylesheet" href="aos.css">
 </head>
 
 <body>
+<!-- aos animation initilization -->
+  <script src="./js/aos.js"></script>
+  <script src="./js/main.js"></script>
+
+
   <!-- navbar starts from bootsrap 5.2-->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
     <div class="container">
@@ -66,8 +71,8 @@
     mx-3 means margin left 
     lh-4 means line hight-->
   <!-- d-flex is used when we want to set property bet. two like two buttons -->
-  <section class="hero-section" id="home" >
-    <div class="container-fluid " data-aos="fade-up" data-aos-delay="300">
+  <section class="hero-section" id="home">
+    <div class="container-fluid ">
       <div class="row ">
         <div class="col-md-12 fade-bg " style="background-image: url('images/lapinew.jpg'); height: 660px;">
           <div class="overlay">
@@ -92,17 +97,17 @@
         <div class="col-md-4 col-12 col-lg-4  animate_animated animate_backInLeft">
         </div>
         <div class="col-md-8 col-12 col-lg-8 animate_animated animate_backInLeft">
-         
-          <h1 class="text-brand ">About Me</h1>
+
+          <h1 data-aos="fade-up" class="text-brand ">About Me</h1>
         </div>
 
       </div>
       <div class="row gy-4">
-        <div class="col-md-8   col-lg-4 col-12 shadow-effect-img ">
+        <div class="col-md-8   col-lg-4 col-12 shadow-effect-img " data-aos="fade-up" data-aos-delay="300">
           <img class="img-r" src="images/rach_new.png" class="img-fluid">
 
         </div>
-        <div class="col-md-8  col-lg-8 col-12 p-4  shadow-effect ">
+        <div class="col-md-8  col-lg-8 col-12 p-4  shadow-effect " data-aos="fade-up" data-aos-delay="600">
 
 
           <!-- <h2 class="text-white my-3 px-3">Hi ! I am <span style="color: brown;">Rachna Dewangan</span></h2> -->
@@ -119,7 +124,7 @@
             trends.
           </p>
           <div class="d-flex">
-          <a class="text-uppercase" href="./Rachna Resume 20th feb.pdf" download>Download CV</a>
+            <a class="text-uppercase" href="./Rachna_Resume 29th March.pdf" download>Download CV</a>
           </div>
         </div>
       </div>
@@ -128,28 +133,28 @@
   <!-- about section ends -->
 
   <!-- Education section starts -->
-  <section class="education-section">
-    <div class="container">
-      <div class="row pb-4">
-        <div class="col-lg-8 " >
+  <section class="education-section" >
+    <div class="container" >
+      <div class="row pb-4" data-aos="fade-up">
+        <div class="col-lg-8 ">
           <h6 class="text-brand ">ABOUT</h6>
           <h1>My Education & My Internship</h1>
         </div>
       </div>
       <div class="row gy-5 pt-3">
         <div class="col-lg-6">
-          <h3>Education</h3>
+          <h3 data-aos="fade-up" data-aos-delay="600">Education</h3>
           <div class="row p-2 gy-4">
             <div class="col-12 col-lg-12">
-              <div class="bg-base p-4 rounded-4 shadow-edu">
-                <h5>Bachelors of Technology</h5>
+              <div class="bg-base p-4 rounded-4 shadow-edu" data-aos="fade-up" data-aos-delay="300">
+                <h5 >Bachelors of Technology</h5>
                 <p class="text-brand mb-2">Government Engineering College(2020-2024)</p>
                 <p class="mb-0">Undergraduate,COMPUTER SCIENCE ENGIEERING </p>
               </div>
             </div>
 
             <div class="col-12 col-lg-12">
-              <div class="bg-base p-4 rounded-4  shadow-edu">
+              <div class="bg-base p-4 rounded-4  shadow-edu" data-aos="fade-up" data-aos-delay="300">
                 <h5>Higher Secondary</h5>
                 <p class="text-brand mb-2">Kendriya Vidhyalaya (2020)</p>
                 <p class="mb-0">93.2 % </p>
@@ -158,40 +163,42 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <h3>Internship</h3>
+          <h3 data-aos="fade-up" data-aos-delay="600">Internship</h3>
           <div class="row p-2 gy-4">
             <div class="col-12 col-lg-12">
-              <div class="bg-base p-4 rounded-4  shadow-edu">
-                <h5>Bachelors of Technology</h5>
-                <p class="text-brand mb-2">Government Engineering College(2020-2024)</p>
-                <p class="mb-0">Undergraduate,COMPUTER SCIENCE ENGIEERING </p>
+              <div class="bg-base p-4 rounded-4  shadow-edu" data-aos="fade-up" data-aos-delay="300">
+                <h5>Android Development Intern</h5>
+                <p class="text-brand mb-2">CODE CASA (1 Month)</p>
+                <p class="mb-0">Successfully completed the task provided ,developed a Quiz app
+                  Calculator app & Gained hands-on experience in the software
+                  development life cycle. </p>
               </div>
             </div>
 
-            <div class="col-12 col-lg-12">
-              <div class="bg-base p-4 rounded-4  shadow-edu">
+            <!-- <div class="col-12 col-lg-12">
+              <div class="bg-base p-4 rounded-4  shadow-edu" data-aos="fade-up" data-aos-delay="300" >
                 <h5>Higher Secondary</h5>
                 <p class="text-brand mb-2">Kendriya Vidhyalaya (2020)</p>
                 <p class="mb-0">93.2 % </p>
-              </div>
+              </div> -->
             </div>
+          </div>
         </div>
       </div>
-    </div>
   </section>
   <!-- Education section ends -->
 
   <!-- skills section starts -->
   <section class="skill-section" id="skills" style="margin-top: 50px !important; margin-bottom: 50px; ">
     <div class="container p-4">
-      <div class="row">
+      <div class="row" data-aos="fade-up">
         <div class="col-lg-12 " style="text-align: center;">
           <h6 class="text-brand ">ABOUT</h6>
           <h1>My Skills </h1>
         </div>
 
       </div>
-      <div class="row pt-4 gy-3">
+      <div class="row pt-4 gy-3" data-aos="fade-up" data-aos-delay="300">
         <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill ">
           <!-- Content for Java skill -->
           <div class="row justify-content-center">
@@ -201,7 +208,7 @@
             <h5 style="text-align: center;">JAVA</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill ">
+        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill " data-aos="fade-up" data-aos-delay="300">
           <!-- Content for Python skill -->
           <div class="row justify-content-center">
             <img src="images/python.png " style="height: 100px; width: 100px;">
@@ -210,7 +217,7 @@
             <h5 style="text-align: center;">PYTHON</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill">
+        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill" data-aos="fade-up" data-aos-delay="300">
           <!-- Content for Android skill -->
           <div class="row justify-content-center">
             <img src="images/android.png " style="height: 100px; width: 100px;">
@@ -219,7 +226,7 @@
             <h5 style="text-align: center;">ANDROID</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill">
+        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill" data-aos="fade-up" data-aos-delay="300">
           <!-- Content for Firebase skill -->
           <div class="row justify-content-center">
             <img src="images/firebase.png " style="height: 100px; width: 100px;">
@@ -231,7 +238,7 @@
       </div>
 
       <div class="row pt-4 gy-3">
-        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill  p-2">
+        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill  p-2" data-aos="fade-up" data-aos-delay="500">
           <!-- Content for HTML skill -->
           <div class="row justify-content-center">
             <img src="images/html-5.png " style="height: 100px; width: 100px;">
@@ -240,7 +247,7 @@
             <h5 style="text-align: center;">HTML</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill p-2">
+        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill p-2"  data-aos="fade-up" data-aos-delay="500">
           <!-- Content for CSS skill -->
           <div class="row justify-content-center">
             <img src="images/css.png " style="height: 100px; width: 100px;">
@@ -249,7 +256,7 @@
             <h5 style="text-align: center;">CSS</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-3 col-3  shadow-skill p-2">
+        <div class="col-lg-3 col-md-4 col-sm-3 col-3  shadow-skill p-2"  data-aos="fade-up" data-aos-delay="500">
           <!-- Content for JavaScript skill -->
           <div class="row justify-content-center">
             <img src="images/js.png " style="height: 100px; width: 100px;">
@@ -258,7 +265,7 @@
             <h5 style="text-align: center;">JAVASCRIPT</h5>
           </div>
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill p-2">
+        <div class="col-lg-3 col-md-4 col-sm-3 col-3 shadow-skill p-2"  data-aos="fade-up" data-aos-delay="500">
           <!-- Content for DSA skill -->
           <div class="row justify-content-center">
             <img src="images/dsa.png " style="height: 100px; width: 100px;">
@@ -281,9 +288,12 @@
   <!-- projects section ends -->
 
 
-  <!-- for submitting form data we navigate to website 'formsubmit' in that we will copy the action
-     and method and then click in Email link and then verify through email -->
+
+  <!-- for submitting form navigate to website formspree 
+  sign in in the website after that create a new form and
+  in setting enable the recapcha option and the copy the url-->
   <!-- contact section starts -->
+
   <section class="contact-section" id="contact" style="background-color: #f8f9fa; border-radius: 12px 12px 0 0;">
     <div class="container">
       <div class="row  justify-content-center text-center" data-aos="fade-up">
@@ -292,18 +302,18 @@
           <h1>Interested in Working Together? Lets Talk</h1>
         </div>
         <div class="col-lg-8">
-          <form action="https://formsubmit.co/el/jicope" method="POST" class="row g-lg-3 gy-3">
+          <form action="https://formspree.io/f/xzbnjrdr" method="POST" class="row g-lg-3 gy-3">
             <div class="form-group col-md-6">
-              <input type="text" class="form-control" placeholder="Enter your name" required>
+              <input type="text" name="name" class="form-control" placeholder="Enter your name" required>
             </div>
             <div class="form-group col-md-6">
-              <input type="text" class="form-control" placeholder="Enter your email" required>
+              <input type="text" name="email" class="form-control" placeholder="Enter your email" required>
             </div>
             <div class="form-group col-md-12">
-              <input type="text" class="form-control" placeholder="Enter subject" >
+              <input type="text" name="subject" class="form-control" placeholder="Enter subject">
             </div>
             <div class="form-group col-md-12">
-              <textarea rows="4" name="" class="form-control" placeholder="Enter your message" required></textarea>
+              <textarea rows="4" name="message" class="form-control" placeholder="Enter your message" required></textarea>
             </div>
 
             <div class="form-group col-md-12 d-grid justify-content-center">
@@ -320,11 +330,21 @@
   <!-- contact section ends -->
   <!-- foorter section -->
   <div class="footer">
-    <h4 class="text-center pt-5"><i class="fa-solid fa-envelope"></i>rachnadewangan92@gmail.com</h4>
+    <div class="d-flex justify-content-center " >
+      <h4 class="justify-content-center pt-5" ><a href="mailto:rachnadewangan92@gmail.com"><i class="fa-solid fa-envelope" ></i></a>&nbsp;rachnadewangan92@gmail.com</h4>
+
+    </div>
+    
     <div class="d-flex justify-content-center gap-3">
-      <a style="text-align: center;padding: 5px; font-size: 30px;"><i class="fa-brands fa-linkedin"></i></a>
+      <a style="text-align: center;padding: 5px;font-size: 30px;" href="https://github.com/dewanganRachna"><i class="fa-brands fa-github"></i></a>
+      <a style="text-align: center;padding: 5px; font-size: 30px;" href="https://www.linkedin.com/in/rachna-dewangan-b9b561228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
       <a style="text-align: center;padding: 5px; font-size: 30px;"></i><i class="fa-brands fa-instagram"></i></h4>
-        <a style="text-align: center;padding: 5px;font-size: 30px;"><i class="fa-brands fa-twitter"></i></a>
+      <a style="text-align: center;padding: 5px;font-size: 30px;"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <hr>
+    <div class="d-flex justify-content-center " >
+      <h5>made with <i class="fa-solid fa-heart"></i> by Rachna</h5>
+
     </div>
 
   </div>
@@ -341,12 +361,6 @@
     });
   </script>
   <!-- type library ends -->
-
-  <!-- animated library link -->
-  <!-- search on google as wow.js and download the zip file from github -->
-  <script src="js/wow/WOW.js"></script>
-  <script>new WOW().init();</script>
-
 
   <!-- my javascript file -->
   <script src="js/index.js"></script>

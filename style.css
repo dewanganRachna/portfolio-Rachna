@@ -117,6 +117,7 @@ body {
         padding-left: 2rem;
     }
 }
+/* hero section */
 .hero-section a{
     width: 155px;
     height: 50px;
@@ -134,36 +135,6 @@ body {
 .hero-section a:hover {
     background-color: var(--color-base1);
 }
-
-.about-section a{
-    width: 155px;
-    height: 50px;
-    border: 2px solid var(--color-base4);
-    outline: none;
-    border-radius: 20px;
-    background-color: var(--color-base1);;
-    padding-top: 10px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding-left: 10px;
-}
-.about-section a:hover {
-    background-color:white;
-    color: var(--color-base1); 
-}
-.bg-base {
-    background-image: linear-gradient(to top, var(--color-base3),white);
-    border-radius: 50px;
-}
-
-.img-r {
-    border-radius: 20px;
-    width: 300px;
-    height: 400px;
-    padding-bottom: 10px;
-}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -192,6 +163,38 @@ body {
     background-position: center;
     /* Centers the background image with responsive property*/
 }
+/* about section and education */
+.about-section a{
+    width: 155px;
+    height: 50px;
+    border: 2px solid var(--color-base4);
+    outline: none;
+    border-radius: 20px;
+    background-color: var(--color-base1);;
+    padding-top: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.about-section a:hover {
+    background-color:white;
+    color: var(--color-base1); 
+}
+/* education section */
+.bg-base {
+    background-image: linear-gradient(to top, var(--color-base3),white);
+    border-radius: 50px;
+}
+
+.img-r {
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    padding-bottom: 10px;
+}
+
+
 
 .shadow-effect-img {
      box-shadow: -6px 6px 7px 0 var(--color-base1);
@@ -214,9 +217,7 @@ body {
     border-radius: 0 48px;
 
 }
-.shadow-edu{
 
-}
 .shadow-edu:hover{
     box-shadow:-6px 6px 0 0 var(--color-base5);
 }
@@ -233,11 +234,7 @@ body {
     /*Adjust the size and blur of the shadow */
 }
 
-.footer {
-    height: 200px;
-    background-color: var(--color-base4);
-    margin-top: 20px;
-}
+/* contact section */
 
 .form-group input {
     box-shadow: 0px 0px 4px 4px var(--color-base1);
@@ -260,4 +257,18 @@ body {
     box-shadow: 6px 6px 5px var(--color-base1);
     border: 3px solid var(--color-base4); 
     border-radius: 15px;
+}
+/* footer section */
+.footer {
+    height: 200px;
+    background-color: var(--color-base4);
+    margin-top: 20px;
+}
+.footer a{
+    color: var(--neonblack);
+}
+.footer a:hover a:active{
+    color: var(--neonblack);
+
+
 }
